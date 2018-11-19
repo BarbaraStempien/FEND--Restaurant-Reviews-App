@@ -306,8 +306,8 @@ header .skip {
 
 @media all and (min-width: 1200px) {
   .inside #map-container  {
-    height: 100%;
-    position: fixed;
+    height: calc(100% - 150px); 
+    position: absolute;
     width: 50%;
     top: 80px;
   }
@@ -323,7 +323,6 @@ header .skip {
 .inside #footer {
   bottom: 0;
   position: absolute;
-  /* width: 50%; */
   width: 100%;
 }
 
