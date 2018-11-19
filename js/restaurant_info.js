@@ -168,6 +168,8 @@ createReviewHTML = (review) => {
   comments.innerHTML = review.comments;
   li.appendChild(comments);
 
+  li.setAttribute('tabindex', '0');
+  
   return li;
 }
 
